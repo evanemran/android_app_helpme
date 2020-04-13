@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".ManageActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="'Manage number and sms'"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#fff">
+
+    </TextView>
+    <TextView
+        android:id="@+id/txtnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="normal">
+
+    </TextView>
+    <TextView
+        android:id="@+id/txtmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:text="Help Me.">
+
+    </TextView>
+    <Button
+        android:id="@+id/btnunum"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_update"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:text="Change Number">
+
+    </Button>
+
+</LinearLayout>
